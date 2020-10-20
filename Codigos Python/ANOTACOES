@@ -1,0 +1,6 @@
+file="C:\\projetos\\movies.csv"
+filmes = pd.read_csv(file)
+filmes.head()
+
+filmes.columns = filmes.columns.str.replace(' ', '_')
+filmes.columns
